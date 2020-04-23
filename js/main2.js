@@ -32,6 +32,7 @@ startButton.addEventListener("click", (e)=>{
     rightSlot.textContent = slotVariables[genNum()]
     if(leftSlot.textContent === middleSlot.textContent && leftSlot.textContent === rightSlot.textContent){
       wallet.textContent = `$ ${previousValue + ( Number(bet) * 10 )}`
+      alert("You Win")
       // return "You Win!".innerHTML
     }else{
       wallet.textContent = `$ ${previousValue - Number(bet)}`
