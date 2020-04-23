@@ -2,6 +2,9 @@
 ## Slot Machine 
 
 Play the Slots win money with 1000$ in your wallet
+
+## Link to Live Project
+https://el-roc.github.io/SlotMachine/
 ## Tech Used
     
     Javascript
